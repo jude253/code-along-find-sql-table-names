@@ -1,6 +1,7 @@
 // comment
 -- comment
 # comment
+
 select *
 from (
   select col1 from test.test_a join test.test_a1 on a.col1 = a1.col1) a
